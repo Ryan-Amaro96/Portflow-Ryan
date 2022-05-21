@@ -12,3 +12,24 @@
     width: 100%;
     background-color: transparent;
 }
+container_header h1{
+    font-weight: 700;
+}
+.container_header nav{
+    width: 40%;
+}
+.container_header ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-weight: 300;
+}
+.container_header li :hover{
+    cursor: pointer;
+    font-weight: 700;
+}
+.blue_Orange{
+    background-image: ./assets/laranja azul recorte.png ;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
