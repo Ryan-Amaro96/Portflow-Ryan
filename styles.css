@@ -88,9 +88,11 @@
 }
 .RandomPictures img{
     width: 20vw;
+    margin-left: 1vw;
+    margin-bottom: 2vh;
 }
 .RandomPictures img:hover{
-    width: 21vw;
+    transform: scale(110%);
 }
 .ContainerFooter{
     display: flex;
@@ -162,10 +164,11 @@ body{
     flex-direction: column-reverse;
     align-items: center;
     justify-content: space-around;
-    height: 500vh;  
+    height: 500vh; 
   }
   .RandomPictures img{
       width: 60%;
+      margin-left: 0;
   }
   .ContainerFooter{
       display: flex;
@@ -195,13 +198,14 @@ body{
       justify-content: flex-start;
       align-items: flex-start;
       height: 100%;
-      width: 50%;
+      width: 64%;
+      margin-top: 2px;
     }
   .FooterText p{
       width: 100%;
-      height: 25vh;
-      font-size: 1rem;
-      border: solid;
+      height: 20vh;
+      font-size: 0.9rem;
+      word-break: break-all;
   }
   .ContainerFooter button{
       display: block;
@@ -215,6 +219,5 @@ body{
       display: flex;
       justify-content: flex-end;
       align-items: center;
-      margin-right: 0;
   }
 }
